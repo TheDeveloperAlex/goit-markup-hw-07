@@ -15,14 +15,14 @@
   color: var(--header-color);
 }
 
-.modal-form__input__description {
+.modal-form__input-description {
   font-size: 12px;
   line-height: 1.14px;
   letter-spacing: 0.01em;
   color: var(--main-text-color);
 }
 
-.modal-form__input__box {
+.modal-form__input-box {
   position: relative;
   margin-top: 4px;
 }
@@ -102,7 +102,7 @@
   transition-delay: 0;
 }
 
-.modal-form__box__textarea {
+.modal-form__box-textarea {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -136,7 +136,7 @@
   }
 }
 
-.modal-form__check__desc {
+.modal-form__check-desc {
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.7;
@@ -144,7 +144,7 @@
   color: var(--main-text-color);
 }
 
-.modal-form__check__desc::before {
+.modal-form__check-desc::before {
   display: inline-block;
   vertical-align: middle;
   content: "";

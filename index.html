@@ -19,13 +19,13 @@
 <body>
     <header class="header-nav">
         <div class="main-box">
-                <div class="container main-nav">
+                <div class="container header-nav__main-nav">
                 <!-- Логотип -->
-                <a href="./index.html" class="logo links" lang="en"><span class="logo__beginning">Web</span>studio</a>
+                <a href="./index.html" class="header-nav__logo links" lang="en"><span class="logo__beginning">Web</span>studio</a>
                 <!-- Навигация -->
                 <nav>
                     <ul class="site-nav">
-                        <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link__active links">Студия</a></li>
+                        <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link-active links">Студия</a></li>
                         <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link links">Портфолио</a></li>
                         <li class="site-nav__item"><a href="" class="site-nav__link links">Контакты</a></li>
                     </ul>
@@ -33,7 +33,7 @@
                 <ul class="contacts-nav">
                     <li class="contacts-nav__item">
                         <a href="mailto:info@example.com" target="_blank" class="contacts-nav__link links">
-                            <svg class="contact-img-envelope">
+                            <svg class="contacts-nav__img-envelope">
                                 <use href="./img/sprite.svg#icon-envelope"></use>
                             </svg>
                             info@devstudio.com
@@ -42,7 +42,7 @@
 
                     <li class="contacts-nav__item">
                         <a href="tel:+380991111111" target="_blank" class="contacts-nav__link contact-link-tel links">
-                            <svg class="contact-img-tel">
+                            <svg class="contacts-nav__img-tel">
                                 <use href="./img/sprite.svg#icon-tel"></use>
                             </svg>
                             +38 096 111 11 11
@@ -58,8 +58,8 @@
         <!-- Герой -->
         <section class="hero bg-img">
             <div class="container">
-                    <h1>Эффективные решения для вашего бизнеса</h1>
-                    <button  type="button" class="button" data-modal-open>Заказать услугу</button>
+                    <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+                    <button  type="button" class="hero__button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         
@@ -132,15 +132,15 @@
                 <ul class="doing">
                     <li class="doing__item">
                         <img src="./img/index/doing/img-1.jpg" alt="Написание программы" width="370">
-                        <h2 class="header__doing">Десктопные приложения</h2>
+                        <h2 class="doing__header">Десктопные приложения</h2>
                     </li>
                     <li class="doing__item">
                         <img src="./img/index/doing/img-2.jpg" alt="Мобильные приложения" width="370">
-                        <h2 class="header__doing">Мобильные приложения</h2>
+                        <h2 class="doing__header">Мобильные приложения</h2>
                     </li>
                     <li class="doing__item">
                         <img src="./img/index/doing/img-3.jpg" alt="Дизайн" width="370">
-                        <h2 class="header__doing">Дизайнерские решения</h2>
+                        <h2 class="doing__header">Дизайнерские решения</h2>
                     </li>
                 </ul>
             </div>
@@ -149,7 +149,7 @@
         <section class="team section">
             <div class="container">
                 <!-- Команда -->
-                <h2 class="header__team">Наша команда</h2>
+                <h2 class="team__header">Наша команда</h2>
                 <ul class="cards">
                     <li class="cards__item">
                         <img src="./img/index/team/igor-demyanenko.jpg" alt="Игорь Демьяненко фото" width="270" class="
@@ -160,28 +160,28 @@
                             <ul class="networks-box">
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item twiter">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-twiter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item facebook">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -198,28 +198,28 @@
                             <ul class="networks-box">
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item twiter">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-twiter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item facebook">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -236,28 +236,28 @@
                             <ul class="networks-box">
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item twiter">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-twiter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item facebook">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -274,28 +274,28 @@
                             <ul class="networks-box">
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item twiter">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-twiter"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item facebook">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="networks-box__item">
                                     <a href="" class="networks-box__link">
-                                        <svg class="networks-box__link__icon">
+                                        <svg class="networks-box__link-icon">
                                             <use href="./img/sprite.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -312,42 +312,42 @@
                 <ul class="client-list">
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-3"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-4"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-5"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
-                            <svg class="client-list__link__icon">
+                            <svg class="client-list__link-icon">
                                 <use href="./img/sprite.svg#icon-logo-6"></use>
                             </svg>
                         </a>
@@ -357,50 +357,50 @@
             
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <!-- Подвал сайта -->
             <div class="footer-box">
                 <address class="footer-box__item">
-                    <a href="./index.html" class="footer-logo links"><span class="logo__beginning">Web</span>studio</a>
+                    <a href="./index.html" class="footer__logo links"><span class="logo__beginning">Web</span>studio</a>
 
-                    <a href="https://goo.gl/maps/j5ftLa1bmfd7tv1o9" target="_blank" class="address links">г. Киев, пр-т Леси
+                    <a href="https://goo.gl/maps/j5ftLa1bmfd7tv1o9" target="_blank" class="footer-box__item-address links">г. Киев, пр-т Леси
                         Украинки, 26</a>
 
                     <ul>
-                        <li class="footer-email"><a href="mailto:info@example.com" target="_blank"
-                                class="footer-contacts links">info@example.com</a></li>
-                        <li class="footer-teleph"><a href="tel:+380991111111" target="_blank" class="footer-contacts links">+38
+                        <li class="footer__email"><a href="mailto:info@example.com" target="_blank"
+                                class="footer__contacts links">info@example.com</a></li>
+                        <li class="footer__teleph"><a href="tel:+380991111111" target="_blank" class="footer__contacts links">+38
                                 099 111 11 11</a></li>
                     </ul>
                 </address>
-                <div class="footer-networks-box">
-                    <p class="footer-networks-box__paragraph">присоединяйтесь</p>
+                <div class="footer__networks-box">
+                    <p class="footer__networks-box-paragraph">присоединяйтесь</p>
                     <ul class="footer-networks">
                         <li class="footer-network__item ">
-                            <a href="#" class="footer-network__item__network ">
-                                <svg class="footer-network__item__network__icon">
+                            <a href="#" class="footer-network__item-network ">
+                                <svg class="footer-network__item-network-icon">
                                     <use href="./img/sprite.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-network__item">
-                            <a href="#" class="footer-network__item__network ">
-                                <svg class="footer-network__item__network__icon">
+                            <a href="#" class="footer-network__item-network ">
+                                <svg class="footer-network__item-network-icon">
                                     <use href="./img/sprite.svg#icon-twiter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="footer-network__item">
-                            <a href="#" class="footer-network__item__network ">
-                                <svg class="footer-network__item__network__icon">
+                            <a href="#" class="footer-network__item-network ">
+                                <svg class="footer-network__item-network-icon">
                                     <use href="./img/sprite.svg#icon-facebook"></use>
                                 </svg >
                             </a>
                         </li>
                         <li class="footer-network__item ">
-                            <a href="#" class="footer-network__item__network ">
-                                <svg class="footer-network__item__network__icon">
+                            <a href="#" class="footer-network__item-network ">
+                                <svg class="footer-network__item-network-icon">
                                     <use href="./img/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -412,11 +412,11 @@
                     <div class="footer-form__box">
                         <input class="footer-form__input" type="email" name="user-email" placeholder="E-mail" required>
                         <button type="submit" class="footer-form__btn">
-                            <span class="footer-form__btn__paragraph">
+                            <span class="footer-form__btn-paragraph">
                                 Подписаться
                             </span>
                            
-                            <svg class="footer-form__btn__icon">
+                            <svg class="footer-form__btn-icon">
                                 <use href="./img/sprite.svg#icon-send"></use>
                             </svg>
                         </button>
@@ -429,7 +429,7 @@
     <div  class="backdrop  is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal__close-btn" data-modal-close>
-               <svg class="modal__close-btn__img">
+               <svg class="modal__close-btn-img">
                    <use href="./img/sprite.svg#icon-close" ></use>
                </svg>
             </button>
@@ -437,8 +437,8 @@
             <form action="" class="modal-form">
                 <p class="modal-form__paragraph">Оставьте свои данные, мы вам перезвоним</p>
                 <label   class="modal-form__box">
-                    <span class="modal-form__input__description">Имя</span>
-                    <span class="modal-form__input__box">
+                    <span class="modal-form__input-description">Имя</span>
+                    <span class="modal-form__input-box">
                         <input type="text" name="user-name" class="modal-form__input" required>
                     <svg class="modal-input-svg-men">
                         <use href="./img/sprite.svg#icon-men"></use>
@@ -447,9 +447,9 @@
                     
                 </label>
                 <label  class="modal-form__box">
-                    <span class="modal-form__input__description">Телефон</span>
+                    <span class="modal-form__input-description">Телефон</span>
                     
-                    <span class="modal-form__input__box">
+                    <span class="modal-form__input-box">
                         <input type="tel" name="user-tel" class="modal-form__input"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-999-99-99" required>
                         <svg class="modal-input-svg-telephone">
                             <use href="./img/sprite.svg#icon-telephone"></use>
@@ -458,9 +458,9 @@
                     
                 </label>
                 <label  class="modal-form__box">
-                    <span class="modal-form__input__description">Почта</span>
+                    <span class="modal-form__input-description">Почта</span>
                     
-                    <span class="modal-form__input__box">
+                    <span class="modal-form__input-box">
                         <input type="email"  class="modal-form__input" required>
                         <svg class="modal-input-svg-mail">
                             <use href="./img/sprite.svg#icon-mail"></use>
@@ -468,12 +468,12 @@
                     </span>
                     
                 </label>
-                <label  class="modal-form__box__textarea">
-                    <span class="modal-form__input__description">Комментарий</span>
+                <label  class="modal-form__box-textarea">
+                    <span class="modal-form__input-description">Комментарий</span>
                     <textarea name="user-massage" id="user-massage"  class="modal-form__textarea" placeholder="Введите текст" required></textarea>
                 </label>
                 <input name="user-policy" id="user-policy" type="checkbox" class="visually-hidden modal-form__check" required>
-                <label for="user-policy" class="modal-form__check__desc">
+                <label for="user-policy" class="modal-form__check-desc">
                     Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>     
                 </label>
                 <button type="submit" class="modal-form__btn" id="">Отправить</button>

@@ -1,10 +1,10 @@
-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
 }
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -17,7 +17,7 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.address {
+.footer-box__item-address {
   display: block;
   margin-bottom: 9px;
 
@@ -28,11 +28,11 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.footer-email {
+.footer__email {
   margin-bottom: 9px;
 }
 
-.footer-contacts {
+.footer__contacts {
   color: #ffffff99;
 
   font-weight: 500;
@@ -49,11 +49,11 @@ footer {
   margin-right: 70px;
 }
 
-.footer-networks-box {
+.footer__networks-box {
   margin-right: 94px;
 }
 
-.footer-networks-box__paragraph {
+.footer__networks-box-paragraph {
   margin-bottom: 20px;
   color: var(--main-header-color);
 
@@ -86,7 +86,7 @@ footer {
   background-position: center;
 } */
 
-.footer-network__item__network {
+.footer-network__item-network {
   display: flex;
   width: 44px;
   height: 44px;
@@ -108,7 +108,7 @@ footer {
   }
 }
 
-.footer-network__item__network__icon {
+.footer-network__item-network-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -175,6 +175,9 @@ footer {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
 
   /* transition-property: color, background-color;
   transition-duration: 250ms;
@@ -184,11 +187,11 @@ footer {
   color: var(--main-header-color);
 }
 
-.footer-form__btn__paragraph {
+.footer-form__btn-paragraph {
   margin-right: 10px;
 }
 
-.footer-form__btn__icon {
+.footer-form__btn-icon {
   width: 24px;
   height: 24px;
   /* vertical-align: middle; */
