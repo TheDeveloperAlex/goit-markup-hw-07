@@ -37,9 +37,8 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.modal__close-btn:hover .modal__close-btn__img,
-.modal__close-btn:focus .modal__close-btn__img {
-  fill: var(--animation-color);
+  .modal__close-btn:hover &,
+  .modal__close-btn:focus & {
+    fill: var(--animation-color);
+  }
 }

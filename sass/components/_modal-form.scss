@@ -40,11 +40,19 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.modal-form__input:focus {
-  outline: none;
-  border: 1px solid var(--animation-botton-color);
+  &:focus {
+    outline: none;
+    border: 1px solid var(--animation-botton-color);
+  }
+  &:focus + .modal-input-svg-men {
+    fill: var(--animation-color);
+  }
+  &:focus + .modal-input-svg-telephone {
+    fill: var(--animation-color);
+  }
+  &:focus + .modal-input-svg-mail {
+    fill: var(--animation-color);
+  }
 }
 
 .modal-form__box {
@@ -66,10 +74,6 @@
   transition-delay: 0;
 }
 
-.modal-form__input:focus + .modal-input-svg-men {
-  fill: var(--animation-color);
-}
-
 .modal-input-svg-telephone {
   position: absolute;
   left: 14px;
@@ -84,10 +88,6 @@
   transition-delay: 0;
 }
 
-.modal-form__input:focus + .modal-input-svg-telephone {
-  fill: var(--animation-color);
-}
-
 .modal-input-svg-mail {
   position: absolute;
   left: 14px;
@@ -100,10 +100,6 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.modal-form__input:focus + .modal-input-svg-mail {
-  fill: var(--animation-color);
 }
 
 .modal-form__box__textarea {
@@ -127,19 +123,17 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
+  &:focus {
+    outline: none;
+    border: 1px solid var(--animation-botton-color);
+  }
+  &::placeholder {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
 
-.modal-form__textarea:focus {
-  outline: none;
-  border: 1px solid var(--animation-botton-color);
-}
-
-.modal-form__textarea::placeholder {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .modal-form__check__desc {
@@ -165,11 +159,10 @@
   transition-delay: 0;
   /* background-image: url("../img/index/modal/check.svg"); */
   background-size: cover;
-}
-
-.modal-form__check:checked + .modal-form__check__desc::before {
-  border-color: var(--animation-color);
-  background-image: url("../img/index/modal/check.svg");
+  .modal-form__check:checked + & {
+    border-color: var(--animation-color);
+    background-image: url("../img/index/modal/check.svg");
+  }
 }
 
 .modal-form__btn {

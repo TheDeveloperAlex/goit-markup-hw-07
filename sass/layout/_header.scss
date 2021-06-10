@@ -17,19 +17,18 @@
 
 .site-nav__item {
   margin-right: 50px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
-.ssite-nav__item:last-child {
-  margin-right: 0;
-}
+// .site-nav__item:last-child {
+//   margin-right: 0;
+// }
 
 .contacts-nav {
   display: flex;
   margin-left: auto;
-}
-
-.contacts-nav__item:not(:last-child) {
-  margin-right: 50px;
 }
 
 /* Логотип */
@@ -70,15 +69,10 @@
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
-
-.site-nav__link:hover::after {
-  opacity: 1;
-}
-
-.site-nav__link:hover,
-.site-nav__link:focus {
-  color: var(--animation-color);
+  &:hover,
+  &:focus {
+    color: var(--animation-color);
+  }
 }
 
 .site-nav__link::after {
@@ -98,9 +92,17 @@
 
   margin-top: 28px;
   margin-bottom: 0px;
+
+  .site-nav__link:hover & {
+    opacity: 1;
+  }
 }
 
-.nav-active {
+.site-nav__link:hover::after {
+  opacity: 1;
+}
+
+.site-nav__link__active {
   color: var(--animation-color);
 }
 
@@ -121,17 +123,19 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
-
-.contacts-nav__link:hover,
-.contacts-nav__link:focus {
-  color: var(--animation-color);
+  &:hover,
+  &:focus {
+    color: var(--animation-color);
+  }
 }
 
 .contacts-nav__item {
   display: flex;
   justify-content: center;
   align-items: center;
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts-nav-link {
@@ -142,11 +146,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.contacts-nav-link:hover,
-.contacts-nav-link:focus {
-  color: var(--animation-color);
+  &:hover,
+  &:focus {
+    color: var(--animation-color);
+  }
 }
 
 .contact-img-envelope {
@@ -163,11 +166,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
-
-.contact-link-tel:hover,
-.contact-link-tel:focus {
-  color: var(--animation-color);
+  &:hover,
+  &:focus {
+    color: var(--animation-color);
+  }
 }
 
 .contact-img-tel {

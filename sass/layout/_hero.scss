@@ -43,8 +43,8 @@
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
-}
-.button:hover,
-.button:focus {
-  background-color: var(--animation-botton-color);
+  &:hover,
+  &:focus {
+    background-color: var(--animation-botton-color);
+  }
 }
